@@ -26,7 +26,7 @@ const HeroSection = () => {
       
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-4xl">
-        <h1 className="heading-primary text-white mb-6 animate-fade-in-up">
+        <h1 className="text-6xl text-white  mb-6 animate-fade-in-up">
           Beleza nas suas mãos com o Unha de Gata
         </h1>
         
