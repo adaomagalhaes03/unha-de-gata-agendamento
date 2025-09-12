@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Menu, X } from 'lucide-react';
-import logoImage from '@/assets/logo-unhas-de-gata.jpg';
+import logoImage from '@/assets/logo unhas de gata branco vector.svg';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
