@@ -5,13 +5,12 @@ import AppointmentForm from '@/components/AppointmentForm';
 import AboutSection from '@/components/AboutSection';
 import ServicesSection from '@/components/ServicesSection';
 import BookingSection from '@/components/BookingSection';
-import TestimonialsSection from '@/components/TestimonialsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       <Header />
       <main>
         <HeroSection />
@@ -19,7 +18,6 @@ const Index = () => {
         <AboutSection />
         <ServicesSection />
         <BookingSection />
-        <TestimonialsSection />
         <ContactSection />
       </main>
       <Footer />

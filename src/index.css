@@ -86,11 +86,13 @@ Paleta de cores feminina e sofisticada para salão de unhas
   body {
     @apply bg-background text-foreground font-sans;
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 
   /* Scroll suave para todos os elementos */
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 }
 
