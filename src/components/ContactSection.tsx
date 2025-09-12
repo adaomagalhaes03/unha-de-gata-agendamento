@@ -27,8 +27,8 @@ const ContactSection = () => {
               <div>
                 <h3 className="font-semibold mb-2">Localização</h3>
                 <p className="text-muted-foreground">
-                  Rua das Flores, 123 - Centro<br />
-                  São Paulo - SP, 01234-567
+                  Município de Maianga, Rua Augusto Tadeu Bastos, N.º 76B<br />
+                  Luanda, junto à Escola Canadiana
                 </p>
               </div>
             </div>
@@ -41,8 +41,8 @@ const ContactSection = () => {
               <div>
                 <h3 className="font-semibold mb-2">Telefone</h3>
                 <p className="text-muted-foreground">
-                  <a href="tel:+5511999999999" className="hover:text-primary transition-colors">
-                    (11) 99999-9999
+                  <a href="tel:+244923456789" className="hover:text-primary transition-colors">
+                    +244 923 456 789
                   </a>
                 </p>
               </div>
@@ -71,8 +71,8 @@ const ContactSection = () => {
               <div>
                 <h3 className="font-semibold mb-2">E-mail</h3>
                 <p className="text-muted-foreground">
-                  <a href="mailto:contato@unhagata.com" className="hover:text-primary transition-colors">
-                    contato@unhagata.com
+                  <a href="mailto:contato@unhasdegata.ao" className="hover:text-primary transition-colors">
+                    contato@unhasdegata.ao
                   </a>
                 </p>
               </div>
@@ -86,7 +86,7 @@ const ContactSection = () => {
                   variant="outline"
                   size="sm"
                   className="hover:bg-green-500 hover:text-white hover:border-green-500"
-                  onClick={() => window.open('https://wa.me/5511999999999', '_blank')}
+                  onClick={() => window.open('https://wa.me/244923456789', '_blank')}
                 >
                   <MessageCircle size={16} className="mr-2" />
                   WhatsApp
@@ -96,7 +96,7 @@ const ContactSection = () => {
                   variant="outline"
                   size="sm"
                   className="hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:text-white hover:border-transparent"
-                  onClick={() => window.open('https://instagram.com/unhagata', '_blank')}
+                  onClick={() => window.open('https://instagram.com/unhasdegata.ao', '_blank')}
                 >
                   <Instagram size={16} className="mr-2" />
                   Instagram
@@ -123,14 +123,14 @@ const ContactSection = () => {
             
             {/* Overlay with quick contact */}
             <div className="absolute top-6 left-6 bg-background/95 backdrop-blur-sm rounded-lg p-4 shadow-lg">
-              <h4 className="font-semibold mb-2">Unha de Gata</h4>
+              <h4 className="font-semibold mb-2">Unhas de Gata – Beleza e Estética</h4>
               <p className="text-sm text-muted-foreground mb-3">
-                Rua das Flores, 123 - Centro
+                Município de Maianga, Rua Augusto Tadeu Bastos, N.º 76B
               </p>
               <Button 
                 size="sm" 
                 className="btn-primary"
-                onClick={() => window.open('https://wa.me/5511999999999?text=Olá! Vi vocês no mapa e gostaria de agendar um horário.', '_blank')}
+                onClick={() => window.open('https://wa.me/244923456789?text=Olá! Vi vocês no mapa e gostaria de agendar um horário.', '_blank')}
               >
                 Agendar Agora
               </Button>

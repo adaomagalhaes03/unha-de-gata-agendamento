@@ -30,7 +30,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center">
           <h1 className="text-2xl md:text-3xl font-bold text-primary">
-            Unha de Gata
+            Unhas de Gata
           </h1>
         </div>
 

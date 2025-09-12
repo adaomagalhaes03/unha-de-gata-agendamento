@@ -35,7 +35,7 @@ const BookingSection = () => {
               
               <Button 
                 className="btn-primary w-full bg-green-500 hover:bg-green-600"
-                onClick={() => window.open('https://wa.me/5511999999999?text=Olá! Gostaria de agendar um horário no Unha de Gata.', '_blank')}
+                onClick={() => window.open('https://wa.me/244923456789?text=Olá! Gostaria de agendar um horário no Unhas de Gata.', '_blank')}
               >
                 <MessageCircle size={20} className="mr-2" />
                 Agendar no WhatsApp
@@ -59,10 +59,10 @@ const BookingSection = () => {
               <Button 
                 variant="outline"
                 className="w-full hover:bg-primary hover:text-primary-foreground"
-                onClick={() => window.open('tel:+5511999999999', '_self')}
+                onClick={() => window.open('tel:+244923456789', '_self')}
               >
                 <Phone size={20} className="mr-2" />
-                (11) 99999-9999
+                +244 923 456 789
               </Button>
             </div>
           </div>
@@ -100,13 +100,13 @@ const BookingSection = () => {
               Pronta para transformar suas unhas?
             </h3>
             <p className="text-muted-foreground mb-6">
-              Não perca tempo! Agende agora mesmo e garante seu horário no Unha de Gata.
+              Não perca tempo! Agende agora mesmo e garante seu horário no Unhas de Gata.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
                 className="btn-primary"
-                onClick={() => window.open('https://wa.me/5511999999999?text=Olá! Gostaria de agendar um horário no Unha de Gata.', '_blank')}
+                onClick={() => window.open('https://wa.me/244923456789?text=Olá! Gostaria de agendar um horário no Unhas de Gata.', '_blank')}
               >
                 <MessageCircle size={20} className="mr-2" />
                 WhatsApp
@@ -115,7 +115,7 @@ const BookingSection = () => {
               <Button 
                 variant="outline"
                 className="hover:bg-primary hover:text-primary-foreground"
-                onClick={() => window.open('tel:+5511999999999', '_self')}
+                onClick={() => window.open('tel:+244923456789', '_self')}
               >
                 <Phone size={20} className="mr-2" />
                 Ligar Agora

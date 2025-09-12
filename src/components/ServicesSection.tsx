@@ -7,25 +7,25 @@ const services = [
     icon: Sparkles,
     title: 'Manicure Completa',
     description: 'Cuidado completo para suas unhas das mãos, incluindo cutícula, formato e esmaltação.',
-    price: 'A partir de R$ 35',
+    price: 'A partir de 15.000 Kz',
   },
   {
     icon: Heart,
     title: 'Pedicure Relaxante', 
     description: 'Tratamento completo para os pés com hidratação, esfoliação e massagem relaxante.',
-    price: 'A partir de R$ 45',
+    price: 'A partir de 20.000 Kz',
   },
   {
     icon: Palette,
     title: 'Nail Art Exclusiva',
     description: 'Designs únicos e personalizados para deixar suas unhas ainda mais especiais.',
-    price: 'A partir de R$ 25',
+    price: 'A partir de 12.000 Kz',
   },
   {
     icon: Scissors,
     title: 'Unhas em Gel',
     description: 'Alongamento e fortalecimento com gel de alta qualidade e durabilidade.',
-    price: 'A partir de R$ 80',
+    price: 'A partir de 35.000 Kz',
   },
 ];
 
