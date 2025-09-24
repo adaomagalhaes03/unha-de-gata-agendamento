@@ -24,15 +24,17 @@ const Header = () => {
   };
 
   return (
-    <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-      isScrolled ? 'bg-primary/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
-    }`}>
+    <header
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+        isScrolled ? 'bg-primary/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
+      }`}
+    >
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center">
-          <img 
-            src={logoImage} 
-            alt="Unhas de Gata - Beleza e Estética" 
+          <img
+            src={logoImage}
+            alt="Unhas de Gata - Beleza e Estética"
             className="h-10 md:h-12 w-auto object-contain"
           />
         </div>
@@ -42,7 +44,9 @@ const Header = () => {
           <button
             onClick={() => scrollToSection('inicio')}
             className={`transition-colors ${
-              isScrolled ? 'text-white hover:text-white/80' : 'text-white hover:text-white/80'
+              isScrolled
+                ? 'text-white hover:text-white/80'
+                : 'text-white hover:text-white/80'
             }`}
           >
             Início
@@ -50,7 +54,9 @@ const Header = () => {
           <button
             onClick={() => scrollToSection('servicos')}
             className={`transition-colors ${
-              isScrolled ? 'text-white hover:text-white/80' : 'text-white hover:text-white/80'
+              isScrolled
+                ? 'text-white hover:text-white/80'
+                : 'text-white hover:text-white/80'
             }`}
           >
             Serviços
@@ -58,7 +64,9 @@ const Header = () => {
           <button
             onClick={() => scrollToSection('agendamento')}
             className={`transition-colors ${
-              isScrolled ? 'text-white hover:text-white/80' : 'text-white hover:text-white/80'
+              isScrolled
+                ? 'text-white hover:text-white/80'
+                : 'text-white hover:text-white/80'
             }`}
           >
             Agendamento
@@ -66,7 +74,9 @@ const Header = () => {
           <button
             onClick={() => scrollToSection('contato')}
             className={`transition-colors ${
-              isScrolled ? 'text-white hover:text-white/80' : 'text-white hover:text-white/80'
+              isScrolled
+                ? 'text-white hover:text-white/80'
+                : 'text-white hover:text-white/80'
             }`}
           >
             Contato
@@ -75,7 +85,7 @@ const Header = () => {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button 
+          <Button
             onClick={() => scrollToSection('agendamento')}
             className="btn-primary"
           >
@@ -92,9 +102,9 @@ const Header = () => {
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
-                    <Button 
-                      onClick={() => scrollToSection('agendamento')}
-                      className="bg-primary border border-foreground text-foreground px-6 py-2 font-semibold rounded transition-colors hover:bg-primary/80 hover:text-foreground"
+      </div>
+
+      {/* Mobile Menu */}
       {isMenuOpen && (
         <div className="md:hidden bg-primary/95 backdrop-blur-md border-t border-white/20">
           <nav className="container mx-auto px-4 py-4 flex flex-col space-y-4">
@@ -122,7 +132,7 @@ const Header = () => {
             >
               Contato
             </button>
-            <Button 
+            <Button
               onClick={() => scrollToSection('agendamento')}
               className="btn-primary w-full"
             >
