@@ -92,9 +92,9 @@ const Header = () => {
         >
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </button>
-      </div>
-
-      {/* Mobile Menu */}
+                    <Button 
+                      onClick={() => scrollToSection('agendamento')}
+                      className="bg-primary border border-foreground text-foreground px-6 py-2 font-semibold rounded transition-colors hover:bg-primary/80 hover:text-foreground"
       {isMenuOpen && (
         <div className="md:hidden bg-primary/95 backdrop-blur-md border-t border-white/20">
           <nav className="container mx-auto px-4 py-4 flex flex-col space-y-4">

@@ -8,53 +8,49 @@ Paleta de cores feminina e sofisticada para salão de unhas
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 340 15% 25%;
+  --background: 36 52% 97%;         /* Bege claro */
+  --foreground: 0 0% 0%;            /* Preto */
 
-    --card: 0 0% 100%;
-    --card-foreground: 340 15% 25%;
+  --card: 36 52% 97%;               /* Bege claro */
+  --card-foreground: 0 0% 0%;       /* Preto */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 340 15% 25%;
+  --popover: 36 52% 97%;            /* Bege claro */
+  --popover-foreground: 0 0% 0%;    /* Preto */
 
-    /* Rosa intenso para botões principais */
-    --primary: 335 46% 73%;
-    --primary-foreground: 0 0% 100%;
+  --primary: 36 52% 85%;            /* Bege médio */
+  --primary-foreground: 0 0% 0%;    /* Preto */
 
-    /* Rosa suave para fundos */
-    --secondary: 330 30% 90%;
-    --secondary-foreground: 340 15% 25%;
+  --secondary: 36 52% 97%;          /* Bege claro */
+  --secondary-foreground: 0 0% 0%;  /* Preto */
 
-    /* Rosa claro para seções alternadas */
-    --muted: 350 47% 92%;
-    --muted-foreground: 340 25% 45%;
+  --muted: 0 0% 96%;                /* Cinza claro */
+  --muted-foreground: 36 52% 40%;   /* Bege escuro */
 
-    /* Rosa médio para acentos */
-    --accent: 340 35% 85%;
-    --accent-foreground: 340 15% 25%;
+  --accent: 30 50% 35%;             /* Marrom médio */
+  --accent-foreground: 36 52% 97%;  /* Bege claro */
 
-    --destructive: 0 84% 60%;
-    --destructive-foreground: 0 0% 100%;
+  --destructive: 0 0% 0%;           /* Preto */
+  --destructive-foreground: 36 52% 97%; /* Bege claro */
 
-    --border: 350 30% 85%;
-    --input: 350 30% 85%;
-    --ring: 335 46% 73%;
+  --border: 36 52% 85%;             /* Bege médio */
+  --input: 36 52% 85%;              /* Bege médio */
+  --ring: 36 52% 85%;               /* Bege médio */
 
-    --radius: 0.5rem;
+  --radius: 0.5rem;
 
-    /* Gradientes personalizados */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary) / 0.9), hsl(var(--accent) / 0.8));
-    --gradient-soft: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted) / 0.5));
-    --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(var(--accent) / 0.3));
+  /* Gradientes personalizados */
+  --gradient-hero: linear-gradient(135deg, hsl(var(--primary) / 0.9), hsl(var(--accent) / 0.8));
+  --gradient-soft: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted) / 0.5));
+  --gradient-card: linear-gradient(145deg, hsl(var(--card)), hsl(var(--accent) / 0.3));
 
-    /* Sombras elegantes */
-    --shadow-soft: 0 4px 20px hsl(var(--primary) / 0.1);
-    --shadow-elegant: 0 8px 40px hsl(var(--primary) / 0.15);
-    --shadow-card: 0 2px 12px hsl(var(--primary) / 0.08);
+  /* Sombras elegantes */
+  --shadow-soft: 0 4px 20px hsl(var(--primary) / 0.1);
+  --shadow-elegant: 0 8px 40px hsl(var(--primary) / 0.15);
+  --shadow-card: 0 2px 12px hsl(var(--primary) / 0.08);
 
-    /* Transições suaves */
-    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  /* Transições suaves */
+  --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 
   .dark {

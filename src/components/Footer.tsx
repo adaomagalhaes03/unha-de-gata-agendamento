@@ -12,9 +12,7 @@ const Footer = () => {
               Unha de Gata
             </h3>
             <p className="text-muted-foreground mb-4 max-w-md">
-              Seu salão de beleza especializado em cuidados com as unhas. 
-              Oferecemos serviços de manicure, pedicure, nail art e muito mais 
-              em um ambiente aconchegante e profissional.
+              Na, UNHAS DE GATA, acreditamos que as suas unhas são uma forma de expressão pessoal e queremos ajudá-la a realçar a sua beleza única. Venha visitar-nos e desfrute de uma experiência de cuidados com as unhas excepcional, em um ambiente acolhedor e relaxante.
             </p>
             <div className="flex space-x-3">
               <a 
@@ -23,7 +21,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
               >
-                <MessageCircle size={18} />
+                <MessageCircle size={18} className="text-black" />
               </a>
               <a 
                 href="https://instagram.com/unhagata" 
@@ -31,13 +29,13 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
               >
-                <Instagram size={18} />
+                <Instagram size={18} className="text-black" />
               </a>
               <a 
                 href="tel:+5511999999999"
                 className="w-10 h-10 bg-primary/20 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
               >
-                <Phone size={18} />
+                <Phone size={18} className="text-black" />
               </a>
             </div>
           </div>
@@ -115,7 +113,7 @@ const Footer = () => {
           
           <div className="flex items-center justify-center mt-6 text-muted-foreground">
             <span className="flex items-center gap-2">
-              Feito com <Heart className="text-primary" size={16} fill="currentColor" /> para cuidar da sua beleza
+              Feito com <Heart className="text-black" size={16} fill="currentColor" /> para cuidar da sua beleza
             </span>
           </div>
         </div>

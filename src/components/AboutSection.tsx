@@ -14,21 +14,18 @@ const AboutSection = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground leading-relaxed">
-              O Unha de Gata é mais que um salão de beleza - é um espaço dedicado ao cuidado 
-              e bem-estar das suas unhas. Com profissionais especializadas e produtos de 
-              alta qualidade, oferecemos uma experiência única de relaxamento e embelezamento.
+             <p>Queridas clientes,</p>
+
+É com imenso prazer que apresentamos a vocês, o portfólio de serviços da UNHAS DE GATA. Estamos dedicadas a oferecer tratamentos de unhas excepcionais, com foco na qualidade, higiene e satisfação das nossas Clientes. 
             </p>
             
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Nossa missão é realçar a beleza natural de cada cliente, proporcionando 
-              tratamentos personalizados em um ambiente acolhedor e sofisticado.
-            </p>
+          
             
             {/* Features */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
               <div className="text-center p-4">
                 <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Heart className="text-primary" size={24} />
+                  <Heart className="text-black" size={24} />
                 </div>
                 <h3 className="font-semibold mb-2">Cuidado Personalizado</h3>
                 <p className="text-sm text-muted-foreground">
@@ -38,7 +35,7 @@ const AboutSection = () => {
               
               <div className="text-center p-4">
                 <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Star className="text-primary" size={24} />
+                  <Star className="text-black" size={24} />
                 </div>
                 <h3 className="font-semibold mb-2">Produtos Premium</h3>
                 <p className="text-sm text-muted-foreground">
@@ -48,7 +45,7 @@ const AboutSection = () => {
               
               <div className="text-center p-4">
                 <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-3">
-                  <Award className="text-primary" size={24} />
+                  <Award className="text-black" size={24} />
                 </div>
                 <h3 className="font-semibold mb-2">Profissionais Qualificadas</h3>
                 <p className="text-sm text-muted-foreground">
@@ -69,14 +66,6 @@ const AboutSection = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
             </div>
             
-            {/* Floating Element */}
-            <div className="absolute -bottom-6 -right-6 bg-white rounded-2xl p-6 shadow-elegant animate-float">
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary">5+</div>
-                <div className="text-sm text-muted-foreground">Anos de</div>
-                <div className="text-sm text-muted-foreground">Experiência</div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
