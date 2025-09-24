@@ -22,7 +22,7 @@ const ContactSection = () => {
             {/* Address */}
             <div className="flex items-start space-x-4">
               <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
-                <MapPin className="text-primary" size={24} />
+                <MapPin className="text-black" size={24} />
               </div>
               <div>
                 <h3 className="font-semibold mb-2">Localização</h3>
@@ -36,7 +36,7 @@ const ContactSection = () => {
             {/* Phone */}
             <div className="flex items-start space-x-4">
               <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
-                <Phone className="text-primary" size={24} />
+                <Phone className="text-black" size={24} />
               </div>
               <div>
                 <h3 className="font-semibold mb-2">Telefone</h3>
@@ -51,7 +51,7 @@ const ContactSection = () => {
             {/* Hours */}
             <div className="flex items-start space-x-4">
               <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
-                <Clock className="text-primary" size={24} />
+                <Clock className="text-black" size={24} />
               </div>
               <div>
                 <h3 className="font-semibold mb-2">Horário de Funcionamento</h3>
@@ -66,7 +66,7 @@ const ContactSection = () => {
             {/* Email */}
             <div className="flex items-start space-x-4">
               <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center flex-shrink-0">
-                <Mail className="text-primary" size={24} />
+                <Mail className="text-black" size={24} />
               </div>
               <div>
                 <h3 className="font-semibold mb-2">E-mail</h3>
@@ -88,7 +88,7 @@ const ContactSection = () => {
                   className="hover:bg-green-500 hover:text-white hover:border-green-500"
                   onClick={() => window.open('https://wa.me/244923456789', '_blank')}
                 >
-                  <MessageCircle size={16} className="mr-2" />
+                  <MessageCircle size={16} className="mr-2 text-black" />
                   WhatsApp
                 </Button>
                 
@@ -98,7 +98,7 @@ const ContactSection = () => {
                   className="hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:text-white hover:border-transparent"
                   onClick={() => window.open('https://instagram.com/unhasdegata.ao', '_blank')}
                 >
-                  <Instagram size={16} className="mr-2" />
+                  <Instagram size={16} className="mr-2 text-black" />
                   Instagram
                 </Button>
               </div>

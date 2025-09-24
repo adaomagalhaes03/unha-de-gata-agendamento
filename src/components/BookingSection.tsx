@@ -22,7 +22,7 @@ const BookingSection = () => {
             {/* WhatsApp Booking */}
             <div className="service-card text-center">
               <div className="w-16 h-16 bg-green-500/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <MessageCircle className="text-green-500" size={32} />
+                <MessageCircle className="text-black" size={32} />
               </div>
               
               <h3 className="text-xl font-semibold mb-3">
@@ -45,7 +45,7 @@ const BookingSection = () => {
             {/* Phone Booking */}
             <div className="service-card text-center">
               <div className="w-16 h-16 bg-primary/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Phone className="text-primary" size={32} />
+                <Phone className="text-black" size={32} />
               </div>
               
               <h3 className="text-xl font-semibold mb-3">
@@ -70,7 +70,7 @@ const BookingSection = () => {
           {/* Info Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
             <div className="text-center p-6 bg-background/50 rounded-xl">
-              <Calendar className="text-primary mb-3 mx-auto" size={28} />
+              <Calendar className="text-black mb-3 mx-auto" size={28} />
               <h4 className="font-semibold mb-2">Horários Flexíveis</h4>
               <p className="text-sm text-muted-foreground">
                 Seg à Sáb: 9h às 18h
@@ -78,7 +78,7 @@ const BookingSection = () => {
             </div>
             
             <div className="text-center p-6 bg-background/50 rounded-xl">
-              <Clock className="text-primary mb-3 mx-auto" size={28} />
+              <Clock className="text-black mb-3 mx-auto" size={28} />
               <h4 className="font-semibold mb-2">Pontualidade</h4>
               <p className="text-sm text-muted-foreground">
                 Respeitamos seu tempo
@@ -86,7 +86,7 @@ const BookingSection = () => {
             </div>
             
             <div className="text-center p-6 bg-background/50 rounded-xl">
-              <MessageCircle className="text-primary mb-3 mx-auto" size={28} />
+              <MessageCircle className="text-black mb-3 mx-auto" size={28} />
               <h4 className="font-semibold mb-2">Confirmação</h4>
               <p className="text-sm text-muted-foreground">
                 Lembretes por WhatsApp

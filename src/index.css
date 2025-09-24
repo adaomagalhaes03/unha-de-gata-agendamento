@@ -11,16 +11,16 @@ Paleta de cores feminina e sofisticada para salão de unhas
   --background: 36 52% 97%;         /* Bege claro */
   --foreground: 0 0% 0%;            /* Preto */
 
-  --card: 36 52% 97%;               /* Bege claro */
+    --card: 36 52% 85%;               /* Bege mais carregado */
   --card-foreground: 0 0% 0%;       /* Preto */
 
-  --popover: 36 52% 97%;            /* Bege claro */
+    --popover: 36 52% 85%;            /* Bege mais carregado */
   --popover-foreground: 0 0% 0%;    /* Preto */
 
-  --primary: 36 52% 85%;            /* Bege médio */
+    --primary: 36 52% 70%;            /* Bege médio mais carregado */
   --primary-foreground: 0 0% 0%;    /* Preto */
 
-  --secondary: 36 52% 97%;          /* Bege claro */
+    --secondary: 36 52% 85%;          /* Bege mais carregado */
   --secondary-foreground: 0 0% 0%;  /* Preto */
 
   --muted: 0 0% 96%;                /* Cinza claro */
@@ -32,9 +32,9 @@ Paleta de cores feminina e sofisticada para salão de unhas
   --destructive: 0 0% 0%;           /* Preto */
   --destructive-foreground: 36 52% 97%; /* Bege claro */
 
-  --border: 36 52% 85%;             /* Bege médio */
-  --input: 36 52% 85%;              /* Bege médio */
-  --ring: 36 52% 85%;               /* Bege médio */
+    --border: 36 52% 70%;             /* Bege médio mais carregado */
+    --input: 36 52% 70%;              /* Bege médio mais carregado */
+    --ring: 36 52% 70%;               /* Bege médio mais carregado */
 
   --radius: 0.5rem;
 

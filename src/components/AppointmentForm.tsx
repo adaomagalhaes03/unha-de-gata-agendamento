@@ -231,7 +231,7 @@ Por favor, confirmem a disponibilidade. Obrigado!`;
 
                 <Button 
                   type="submit" 
-                  className="w-full btn-primary bg-[#E89BB5] hover:bg-[#E89BB5]/90 text-white text-lg py-6"
+                  className="w-full bg-primary text-foreground border border-border text-lg py-6 font-semibold rounded transition-colors hover:bg-primary/90 hover:text-foreground"
                 >
                   Agendar Agora
                 </Button>
@@ -239,8 +239,8 @@ Por favor, confirmem a disponibilidade. Obrigado!`;
             </Form>
 
             <div className="mt-6 text-center">
-              <p className="text-sm text-muted-foreground">
-                Ou ligue diretamente: <a href="tel:+244923456789" className="text-primary hover:underline">+244 923 456 789</a>
+              <p className="text-sm text-foreground">
+                Ou ligue diretamente: <a href="tel:+244923456789" className="text-black font-semibold hover:underline">+244 923 456 789</a>
               </p>
             </div>
           </div>
